@@ -1,0 +1,93 @@
+{
+    "ovens": [
+        {
+            "start_temp": 1060,
+            "working_temps": [
+                960, 
+                950, 
+                830, 
+                860, 
+                1060
+            ],
+            "operations": [
+                "kovka"
+            ]
+        },
+        {
+            "start_temp": 960,
+            "working_temps": [
+                960, 
+                950, 
+                860, 
+                820, 
+                1000
+            ],
+            "operations": [
+                "kovka"
+            ]
+        },
+        {
+            "start_temp": 950,
+            "working_temps": [
+                960, 
+                950,
+                840, 
+                870
+            ],
+            "operations": [
+                "kovka",
+                "otzhig"
+            ]
+        },
+        {
+            "start_temp": 950,
+            "working_temps": [
+                960, 
+                950, 
+                840, 
+                870
+            ],
+            "operations": [
+                "kovka"
+            ]
+        },
+        {
+            "start_temp": 980,
+            "working_temps": [
+                1060, 
+                980, 
+                940, 
+                960, 
+                750
+            ],
+            "operations": [
+                "kovka",
+                "otzhig"
+            ]
+        },
+        {
+            "start_temp": 950,
+            "working_temps": [
+                1100, 
+                1060, 
+                960, 
+                950
+            ],
+            "operations": [
+                "prokat",
+                "otzhig"
+            ]},
+            {
+                "start_temp": 1080,
+                "working_temps": [
+                    1100, 
+                    1060, 
+                    980, 
+                    960, 
+                    950
+                ],
+                "operations": [
+                    "kovka",
+                    "prokat"
+                ]}
+    ]}

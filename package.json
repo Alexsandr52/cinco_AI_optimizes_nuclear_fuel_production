@@ -1,0 +1,27 @@
+{
+    "name": "xxx",
+    "version": "0.1.0",
+    "main": "./build/electron/main.js",
+    "scripts": {
+      "dump": "dump-stlite-desktop-artifacts",
+      "serve": "cross-env NODE_ENV=production electron .",
+      "pack": "electron-builder --dir",
+      "dist": "electron-builder",
+      "postinstall": "electron-builder install-app-deps"
+    },
+    "build": {
+      "files": ["build/**/*"],
+      "directories": {
+        "buildResources": "assets"
+      },
+      "win": {
+        "target": "portable"
+      }
+    },
+    "devDependencies": {
+      "@stlite/desktop": "^0.42.3",
+      "cross-env": "^7.0.3",
+      "electron": "^27.1.2",
+      "electron-builder": "^24.9.1"
+    }
+  }
